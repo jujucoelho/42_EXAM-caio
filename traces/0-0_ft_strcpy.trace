@@ -1,0 +1,9 @@
+----------------8<-------------[ START TEST 
+        💻 TEST
+./a.out "Ceci permet de decouvrir le fonctionnement de ton ft_strcpy."         🔎 YOUR OUTPUT:
+/usr/bin/ld: /tmp/ccsG7WdH.o: in function `main':
+main.c:(.text+0x0): multiple definition of `main'; /tmp/ccoCDzpL.o:ft_strcpy.c:(.text+0x66): first defined here
+collect2: error: ld returned 1 exit status
+
+        ❌ COMPILATION ERROR
+----------------8<------------- END TEST ]
