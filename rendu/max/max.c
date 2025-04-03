@@ -1,20 +1,23 @@
 int	max(int *tab, unsigned int len)
 {
-	int				i;
-	unsigned int	j;
+	unsigned int	i;
+	int	max;
 	
-	i = tab[0];
-	j = len;
+	max = tab[0];
+	i = len - 1;
+	printf("i = %d, max = %i, tab[i] = %d\n", i, max, tab[i]);
 	if (len == 0)
 		return (0);
 	else
 	{
-		while (j > 0)
+		while (i > 0)
 		{
-			if (tab[i] < tab[j])
-				tab[i] == tab[j];
-			j--;
+			if (max < tab[i])
+				max = tab[i];
+			printf("2)i = %d, max = %i, tab[i] = %d\n", i, max, tab[i]);
+			i--;
 		}
-		return (&tab[i]);
+		printf("3)i = %d, max = %i, tab[i] = %d\n", i, max, tab[i]);
+		return (max);
 	}
 }
