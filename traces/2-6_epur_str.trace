@@ -1,8 +1,0 @@
-----------------8<-------------[ START TEST 
-        💻 TEST
-./a.out "See? It's easy to print the same thing" 
-        🔎 YOUR OUTPUT:
-See? It's easy to print the same thing $
-        🗝 EXPECTED OUTPUT:
-See? It's easy to print the same thing$
-----------------8<------------- END TEST ]

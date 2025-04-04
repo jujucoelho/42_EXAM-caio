@@ -2,7 +2,7 @@
         💻 TEST
 ./a.out 
         🔎 YOUR OUTPUT:
-gcc: error: ../../rendu/epur_str/epur_str.c: No such file or directory
+gcc: error: ../../rendu/search_and_replace/search_and_replace.c: No such file or directory
 gcc: fatal error: no input files
 compilation terminated.
 
